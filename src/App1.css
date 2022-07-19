@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(https://dss.gov.ng/assets/images/it_service/slide3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.block{
+    align-self: center;
+    justify-self: center;
+    display: block;
+    margin:auto;
+    border-radius: 5px;
+    width: 50%;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.w-full{
+    margin-top: 20px;
+    background-color: white;
+    opacity: 0.87;
+    padding: 0 15px;
+}
+.first_name{
+    padding-top: 15px;;
+}
+.button{
+    text-align: center;
+}
+.flex-wrap{
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.flex-wrap input{
+    height: 30px;
+    margin-top: 5px;
+}
+.btn{
+    background-color: black;
+    color: #fff;
+    border-radius: 3px;
+    padding: 3px 15px;
+    text-align: center;
+    margin: 15px;
+    font-size: 20px;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+}
